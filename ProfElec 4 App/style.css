@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins';
+}
+/*nav bar*/
+.navbar{
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    margin-top: 20%;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-family: 'Poppins';
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #9db3b4;
+  }
+
+  
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+/*worksheets*/
+.card-header h3{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.links ul{
+  list-style-type: none;
+    margin-top: 20%;
+    padding: 0;
+}
+
+.links li{
+  font-family: 'Poppins';
+  display: block;
+  color: #344b52;
+  text-align: center;
+  text-decoration: none;
+}
+footer .container{
+  color: white;
+    height: 50px;
+    width: 100%;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+}
